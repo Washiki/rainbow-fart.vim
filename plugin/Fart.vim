@@ -3,7 +3,7 @@
 if exists('g:fart_loaded')
 	finish
 endif
-let g:fart_loaded = 1;
+let g:fart_loaded = 1
 "some events can trigger reloaded of scripts. 
 "just checks if its already loaded, skips if it is. 
 
