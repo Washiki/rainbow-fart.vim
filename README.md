@@ -18,7 +18,7 @@ After loading this plugin, it will start automatically - you should see a "Hello
 
 For **stopping** the messages:
 ```vim
-	:Fart#stop()
+	:call Fart#stop()
 ```
 
 By default, the messages refresh every 60 seconds. 
@@ -26,7 +26,7 @@ By default, the messages refresh every 60 seconds.
 For **restarting** the messages with your custom time interval: 
 
 ```vim
-	:Fart#start(interval)
+	:call Fart#start(interval)
 ```
 >Note: the time entered in "interval" is in milliseconds . So for 60 seconds, enter 60000
 
