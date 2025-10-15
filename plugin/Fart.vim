@@ -9,7 +9,8 @@ let g:fart_loaded = 1
 
 
 let g:seed = srand()
-let g:farts = readfile('compliments.txt')
+let g:farts = readfile('./compliments.txt')
+
 let g:fartlen = len(g:farts)
 let g:fart_text = 'Hello World!'
 let g:fart_time = 60000
