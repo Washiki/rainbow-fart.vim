@@ -32,3 +32,7 @@ For **restarting** the messages with your custom time interval:
 >Note: the time entered in "interval" is in milliseconds . So for 60 seconds, enter 60000
 
 
+
+In the ``plugin`` folder, there is a ``compliments.txt`` file that contains all possible compliments.
+
+To add your own or delete , just edit them into the file. Each line corresponds to one compliment. 
