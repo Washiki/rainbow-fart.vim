@@ -9,8 +9,17 @@ let g:fart_loaded = 1
 
 
 let g:seed = srand()
-let g:farts = readfile('./compliments.txt')
+"let g:farts = readfile('./compliments.txt')
+"if we do this, it doesn't look relative tothe plugin, but to the wd of that
+"vim instance. To beat this, <sfile> exists and gives the path of the urrent
+"script being executed.
 
+let g:farts = readfile(expand('<sfile>:p:h') . '/compliments.txt')
+". is the string concat. p gives abs parent, h gives the head from the parent.
+
+
+"
+"
 let g:fartlen = len(g:farts)
 let g:fart_text = 'Hello World!'
 let g:fart_time = 60000
