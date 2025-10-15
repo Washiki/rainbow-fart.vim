@@ -1,4 +1,4 @@
-# Fart.vim
+#Rainbow-Fart.vim
  A vim  gimmick I made instead of studying. Drops random compliments to the user on the status line as they code.
 
 Basically a simpler implementation of rainbow fart for vscode, but for vim. Doesn't come with the voiceover. Or the waifu. yet.
@@ -20,6 +20,7 @@ For **stopping** the messages:
 ```vim
 	:call Fart#stop()
 ```
+
 
 By default, the messages refresh every 60 seconds. 
 
