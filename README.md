@@ -10,6 +10,9 @@ Before using, add this to your .vimrc file:
 ```
 >Note: if you've already got your statusline setup, add this where you'd want it to show up.
 
+Use your favourite plugin manager to load this into vim. 
+(I use vim-plug, though all should work withotu any problem.)
+
 And we're all set to go!
 
 ## Usage
