@@ -1,7 +1,7 @@
 # Rainbow-Fart.vim
  A vim  gimmick I made instead of studying. Drops random compliments to the user on the status line as they code.
 
-Basically a simpler implementation of rainbow fart for vscode, but for vim. Doesn't come with the voiceover. Or the waifu. yet.
+Basically a plugin which is a simpler implementation of rainbow fart for vscode, but for vim. Doesn't come with the voiceover. Or the waifu. *yet.*
 
 ## Setup
 Before using, add this to your .vimrc file:
@@ -11,7 +11,7 @@ Before using, add this to your .vimrc file:
 >Note: if you've already got your statusline setup, add this where you'd want it to show up.
 
 Use your favourite plugin manager to load this into vim. 
-(I use vim-plug, though all should work withotu any problem.)
+(I use [vim-plug](https://github.com/junegunn/vim-plug), though all should work without any problem.)
 
 And we're all set to go!
 
@@ -38,4 +38,4 @@ For **restarting** the messages with your custom time interval:
 
 In the ``plugin`` folder, there is a ``compliments.txt`` file that contains all possible compliments.
 
-To add your own or delete , just edit them into the file. Each line corresponds to one compliment. 
+To add your own or delete some , just edit the file. Each line corresponds to one compliment. 
